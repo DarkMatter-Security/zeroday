@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (large files, downloaded datasets)
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.pkl
+*.pth
+*.pt
+!examples/*.pth
+eeg_data/
+physionet/
+
+# Logs
+*.log
+
+# Docker
+.docker/
+
+# Environment
+.env
+*.env.local
+
+# Keep PROVENANCE.md private (maps dogtag locations)
+PROVENANCE.md
